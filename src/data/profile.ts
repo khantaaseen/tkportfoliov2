@@ -8,7 +8,7 @@ export const profile = {
   // ── Update these two with your exact profile URLs ──
   github: "https://github.com/khantaaseen",
   linkedin: "https://www.linkedin.com/in/taaseenkhan",
-  resume: "/resume.pdf",
+  resume: `${import.meta.env.BASE_URL}resume.pdf`,
   tagline: "I build production software end to end.",
   intro: [
     "I'm a software engineer based in Detroit who likes owning the whole stack — data models, APIs, the interface, and the pipeline that ships it. Right now I build enterprise platform features at Intellinetics and lead development of EliteMedMatch, a SaaS mentorship platform I architected from the ground up.",
